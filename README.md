@@ -1,5 +1,7 @@
 # bilibili-cn-bj-fx-01-ipv6-fix
 
+## Archived: This issue has been fixed as of 20240920.
+
 Fix IPV6 records of `cn-bj-fx-01-[08..12].bilivideo.com` by redirect them to `cn-bj-fx-01-01.bilivideo.com`.
 
 Append the following config to `/etc/config/firewall` on your openwrt router. `fw4` required.
